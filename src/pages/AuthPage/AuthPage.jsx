@@ -38,7 +38,7 @@ const AuthPage = () => {
               form={form}
               labelCol={{ span: 4 }}
               wrapperCol={{ span: 20 }}
-              name="basic"
+              name="auth_form"
               initialValues={{ remember: true }}
               onFinish={onFinish}
             >
